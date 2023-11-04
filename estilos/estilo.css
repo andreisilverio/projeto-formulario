@@ -39,13 +39,15 @@ h1 {
     padding-top: 70px;
     font-size: 1.4em;
     font-weight: normal;
+
+    transform: translate( 0%, 17%);
 }
 
 #p1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 
-    transform: translate( 0%, -40%);
+    transform: translate( 0%, 155%);
 }
 
 form {
@@ -59,6 +61,8 @@ input {
     font-size: 1em;
     height: 13px;
     width: 325px;
+
+    transform: translate( 0%, 85%);
 }
 
 #a1 {
@@ -69,9 +73,9 @@ input {
 #p2 {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 60px;
-    padding-left: 20px;
+    padding-left: 30px;
 
-    transform: translate( 4%, -30%);
+    transform: translate( 2%, 55%);
 }
 
 #p3 {
@@ -80,7 +84,7 @@ input {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 
-    transform: translate( 9%, 90%);
+    transform: translate( 9%, 60%);
 }
 
 #a2 {
@@ -106,7 +110,7 @@ input {
     height: 39px;
     background-color: white;
    
-    transform: translate( 30%, 180%);
+    transform: translate( 30%, 160%);
     font-size: 15px;
 }
 
