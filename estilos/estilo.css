@@ -11,7 +11,7 @@ body {
     background-color: white
 }
 
-.fora {
+.fora1 {
     position: absolute;
     align-items: center;
     display: flex;
@@ -20,7 +20,7 @@ body {
     width: 98vw;
 }
 
-.dentro {
+.dentro1 {
     position: relative;
     background-color: white;
     width: 450px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .input1 {
-    font-size: 15px;
+    font-size: 16px;
     width: 360px;
     height: 55px;
     margin: 40px;
@@ -69,8 +69,9 @@ h1 {
 }
 
 .input1::placeholder {
+  
     opacity: 1;
-    color: rgba(0, 0, 0, 0.801);
+    color: rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -139,7 +140,7 @@ button:hover {
 .enviar {
     font-family: 'Open Sans', sans-serif;
     text-align: right;
-   margin-top: -110px;
+    margin-top: -110px;
 }
 
 .input2 {
@@ -159,18 +160,30 @@ button:hover {
     background-color: #1A73E8;
 }
 
-.rodape {
+.fora2 {
     position: absolute;
-    top: 75%;
-    left: 20%;
+    top: 78%;
+    left: 37%;
+    transform: translate(5%, 10%);
 }
 
-.formulario2 {
-    margin: 0px;
+select {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
 }
 
-.links {
-    margin: ;
-    position: relative;
-    top: -50%;
+.p4 {
+    position: absolute;
+    top: 77%;
+    left: 47%;
+    transform: translate(5%, -10%);
+}
+
+.a4 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 20px;
 }
