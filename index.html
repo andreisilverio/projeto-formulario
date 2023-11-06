@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazer login nas Contas do Google</title>
     <link rel="stylesheet" href="estilos/estilo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
 </head>
 
 <body>
@@ -30,22 +35,105 @@
 
                     <div class="conta">
                         
-                        <label for="iemail" class="label">E-mail ou telefone</label>
+                        <label for="iemail" class="label1"></label>
 
-                        <input type="text" name="e-mail" id="iemail" placeholder="">
+                        <input  class="input1" type="text" name="e-mail" id="iemail" placeholder="E-mail ou telefone" required>
 
                     </div>
 
-                    <h2>
-                        <a class="a1" href="https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Dpt-BR&dsh=S-1089880019%3A1699139637675901&ec=GAlA8wE&flowEntry=AddSession&flowName=GlifWebSignIn&hl=pt-BR&theme=glif" target="_blank">Esqueceu seu e-mail?</a>
-                    </h2>
-
-                    <p class="p3">
-                        Não está no seu computador? Use o modo visitante para fazer login  com privacidade. <a class="a2" href="https://support.google.com/chrome/answer/6130773?hl=pt-BR" target="_blank">Saiba mais</a>
-                    </p>
                 </form>
+
+                <h2>
+                    <a class="a1" href="https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Dpt-BR&dsh=S-1089880019%3A1699139637675901&ec=GAlA8wE&flowEntry=AddSession&flowName=GlifWebSignIn&hl=pt-BR&theme=glif" target="_blank">Esqueceu seu e-mail?</a>
+                </h2>
+
+                <p class="p3">
+                    Não está no seu computador? Use o modo visitante para fazer login  com privacidade. <a class="a2" href="https://support.google.com/chrome/answer/6130773?hl=pt-BR" target="_blank">Saiba mais</a>
+                </p>
+
+                <button>
+                   
+                    <a  class="a3" href="https://accounts.google.com/signup/v2/createaccount?biz=false&cc=BR&continue=https%3A%2F%2Fwww.google.com%3Fhl%3Dpt-BR&dsh=S1930356658%3A1699223272980429&ec=GAlA8wE&flowEntry=SignUp&flowName=GlifWebSignIn&hl=pt-BR&theme=glif" target="_blank">Criar conta</a>
+
+                </button>
+
+                <div class="enviar">
+
+                    <input  class="input2" type="submit" value="Avançar">
+
+                </div>
+
             </div>
         </section>
     </main>
+
+    <footer>
+        <section class="rodape">
+            <div class="links">
+                <nav>
+                    <form action="cadastro.php" method="post" class="formulario2">
+
+                        <label for="idio"></label>
+                        <select name="idioma" id="idio">
+
+                            <option>Português (Brasil)</option>
+                            <option>Afrikaans</option>
+                            <option>azerbaycan</option>
+                            <option>bosanski</option>
+                            <option>catalá</option>
+                            <option>Cymraeg</option>
+                            <option>Čeština</option>
+                            <option>Dansk</option>
+                            <option>Deutsh</option>
+                            <option>eesti</option>
+                            <option>Ensglish (United Kingdom)</option>
+                            <option>Ensglish (United States)</option>
+                            <option>Español (España)</option>
+                            <option>euskara</option>
+                            <option>Filipino</option>
+                            <option>Français (Canada)</option>
+                            <option>Français (France)</option>
+                            <option>Gaeilge</option>
+                            <option>galego</option>
+                            <option>Hrvatski</option>
+                            <option>Indonesia</option>
+                            <option>isiZulu</option>
+                            <option>íslenska</option>
+                            <option>Italiano</option>
+                            <option>Kiswahili</option>
+                            <option>latviešu</option>
+                            <option>lietuvių</option>
+                            <option>magyar</option>
+                            <option>Melayu</option>
+                            <option>Nederlands</option>
+                            <option>norsk</option>
+                            <option>o'zbek</option>
+                            <option>polski</option>
+                            <option>Português (Portugal)</option>
+                            <option>românâ</option>
+                            <option>shqip</option>
+                            <option>Slovenčina</option>
+                            <option>slovenščina</option>
+                            <option>srpski (latinica)</option>
+                            <option>Suomi</option>
+                            <option>Svenska</option>
+                            <option>Tiếng Việt</option>
+                            <option>Türkçe</option>
+
+                        </select>
+                    </form>
+
+                    <p class="p4">
+                        
+                        <a class="a4" href="#">Ajuda </a>
+
+                        <a  class="a4" href="#">Privacidade</a>
+
+                        <a  class="a4" href="#">Termos</a>
+                    </p>
+                </nav>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
